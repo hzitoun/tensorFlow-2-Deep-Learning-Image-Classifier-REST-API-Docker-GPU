@@ -1,0 +1,21 @@
+name: tf2-image-classifier-api
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip==20.1
+  - numpy==1.18.4
+  - flask==1.1.2
+  - matplotlib==3.2.1
+  - seaborn==0.10.1
+  - scikit-learn==0.23
+  - notebook==6.0.3
+  - ipywidgets==7.5.1
+  #- certifi
+  - waitress==1.4.3
+  #- pyyaml==5.1.2
+  - pip:
+     - tensorflow-gpu==2.2.0
+     - opencv-python==4.2.0.34
+     - tqdm==4.46.0
